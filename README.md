@@ -21,4 +21,13 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+# テーブル設計
+
+## users テーブル
+
+| Column             | Type   | Options     |
+| ------------------ | ------ | ----------- |
+| name               | string | null: false |
+| phone_number       | string | null: false |
+| room_type          | string | null: false |
+
